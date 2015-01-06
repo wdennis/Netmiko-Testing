@@ -1,0 +1,61 @@
+<rpc-reply xmlns:junos="http://xml.juniper.net/junos/12.3R6/junos">
+    <chassis-inventory xmlns="http://xml.juniper.net/junos/12.3R6/junos-chassis">
+        <chassis junos:style="inventory">
+            <name>Chassis</name>
+            <serial-number>CW0123456789</serial-number>
+            <description>EX2200-24T-4G</description>
+            <chassis-module>
+                <name>Routing Engine 0</name>
+                <version>REV 22</version>
+                <part-number>750-026468</part-number>
+                <serial-number>CW0123456789</serial-number>
+                <description>EX2200-24T-4G</description>
+                <clei-code>COMXZ10BRA</clei-code>
+                <model-number>EX2200-24T-4G</model-number>
+            </chassis-module>
+            <chassis-module>
+                <name>FPC 0</name>
+                <version>REV 22</version>
+                <part-number>750-026468</part-number>
+                <serial-number>CW0213093063</serial-number>
+                <description>EX2200-24T-4G</description>
+                <clei-code>COMXZ10BRA</clei-code>
+                <model-number>EX2200-24T-4G</model-number>
+                <chassis-sub-module>
+                    <name>CPU</name>
+                    <part-number>BUILTIN</part-number>
+                    <serial-number>BUILTIN</serial-number>
+                    <description>FPC CPU</description>
+                </chassis-sub-module>
+                <chassis-sub-module>
+                    <name>PIC 0</name>
+                    <part-number>BUILTIN</part-number>
+                    <serial-number>BUILTIN</serial-number>
+                    <description>24x 10/100/1000 Base-T</description>
+                    <clei-code>COMXZ10BRA</clei-code>
+                    <model-number>EX2200-24T-4G</model-number>
+                </chassis-sub-module>
+                <chassis-sub-module>
+                    <name>PIC 1</name>
+                    <version>REV 22</version>
+                    <part-number>750-026468</part-number>
+                    <serial-number>CW0123456789</serial-number>
+                    <description>4x GE SFP</description>
+                    <clei-code>COMXZ10BRA</clei-code>
+                    <model-number>EX2200-24T-4G</model-number>
+                </chassis-sub-module>
+            </chassis-module>
+            <chassis-module>
+                <name>Power Supply 0</name>
+                <description>PS 100W AC</description>
+            </chassis-module>
+            <chassis-module>
+                <name>Fan Tray</name>
+                <description>Fan Tray</description>
+            </chassis-module>
+        </chassis>
+    </chassis-inventory>
+    <cli>
+        <banner>{master:0}</banner>
+    </cli>
+</rpc-reply>
